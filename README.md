@@ -1,9 +1,9 @@
 # Self-made-Projects
-Searching And Sorting Library filein C. This project is done by me and my group member Rachit Belwariar.
+Searching And Sorting Library file in C. This project is done by me and my group member Rachit Belwariar.
 
 A library containing various searching and sorting functions to search and sort a list of structures(records) according to the given comparator function.
 
-The main objective of this project is to provide the same flexibility as C's qsort() in other searching and sorting algorithms. The searching and soring functions in the given library (LIBRARY.c) can be used for any type (including user defined types) and can be used to obtain any desired order (increasing, decreasing or any other).
+The main objective of this project is to provide the same flexibility as C's qsort() in other searching and sorting algorithms. The searching and sorting functions in the given library (LIBRARY.c) can be used for any type (including user defined types) and can be used to obtain any desired order (increasing, decreasing or any other).
 
 How to use the code?
 
