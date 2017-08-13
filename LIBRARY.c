@@ -103,4 +103,3 @@ void mergeSort(void *arr, int left, int right, int (*comp)(void *, void *), void
 	}
 	return;
 }
-
