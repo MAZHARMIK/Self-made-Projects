@@ -2,6 +2,6 @@
 # Self-made-Projects
 
 These are some of my projects that I worked on during my academic session. 
-<img src="markdownmonstericon.png"
+<img src="https://www.newsignature.com/wp-content/uploads/2017/02/project-management-1024x512.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
