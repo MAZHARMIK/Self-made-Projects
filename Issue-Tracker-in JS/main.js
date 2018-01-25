@@ -1,3 +1,20 @@
+/*Add an event handler first*/
+document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
+
+function saveIssue(e)
+{
+	var issueDesc = document.getElementById('issueDescInput').value;
+	var issueSeverity = document.getElementById('issueSeverityInput').value;
+	var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
+	var issueId = chance.guid(); /*Returns a global unique identifier*/
+	var issueStatus = 'Open';
+	
+	var issue = {
+		
+		
+	}
+}
+
 function fetchIssues()
 {
 	/*	
