@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="pingBall.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Mazhar Game Development</title>
+	</head>
+	
+	<body style="background-color: black;">
+		<div>
+			<img src="cliparts/sound.png" alt="" id="sound_icon">
+		</div>
+		
+		<div id="EndGame">
+			<img src="cliparts/victory.png" alt="" id="victory">
+			<img src="cliparts/lose.png" alt="" id="lose">
+			<div class="glow" id="victoryText">Victory !&nbsp;<i style="font-size:50px" class="fa">&#xf091;</i><br>
+				<span id="appendName" style="font-size:50%;">Play Again ?&nbsp;<i class="fa fa-refresh fa-spin" style="font-size:100%"></i></span>
+			</div>
+			<div class="glow" id="restart">Play Again!&nbsp;<i class="fa fa-refresh fa-spin" style="font-size:50px"></i></div>
+		</div>
+		
+		<canvas id="myCanvasGameArea" width="880" height="520"></canvas>
+		
+		
+		
+		<div id="GameDescriptionArea">
+			<span  id="myIntro">Ping Pong Game: By, <strong class="glow">Mazhar</strong></span><br><br>
+			<label for="fname">Player name:</label>
+			<input type="text" id="fname" name="fname" value="Type..."><br>
+			
+			<span style="font-size:150%;color:yellow;">&#11088;</span>
+			<label for="levelDisplay"> Level:</label><div style="display: inline" id="levelDisplay">1</div><br>
+			<span style="font-size:150%;color:yellow;">&#127942;</span>
+			<label for="scoreDisplay"> Score:</label><div style="display: inline" id="scoreDisplay">0</div><br>
+			<span style="font-size:150%;color:red;">&#128102;</span>
+			<label for="liveDisplay"> Lives:</label><div style="display: inline" id="liveDisplay">3</div><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span style="font-size:150%;color:yellow;">&#127939;</span>
+			<button id="startGame" class="button"><span>Let's play</span></button><br><br>
+		</div>
+		
+		<script src="utilities/jquery.js"></script>
+		<script type="module" src="pingBall.js"></script>
+	</body>
+</html>

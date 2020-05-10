@@ -1,0 +1,133 @@
+body {
+	background-size: cover;
+}
+
+* {
+	padding: 0;
+	margin: 0; 
+}
+
+#myIntro {
+	font-style  : bold;
+	font-family : Goudy Old Style !important;
+}
+
+#sound_icon {
+	width    : 50px;
+	height   : 50px;
+	cursor   : pointer;
+	position : absolute;
+	top      : 470px;
+	left     : 15px;
+}
+
+#EndGame {
+	position  : absolute;
+	width	  : 880px;
+	height	  : 520px;
+	background: rgba(0, 0, 0, 0, 5);
+	display	  : none;
+}
+
+#victory{
+	position  : absolute;
+	width	  : 400px;
+	left	  : 280px;
+	display	  : none;
+}
+
+#lose {
+	position  : absolute;
+	width	  : 480px;
+	left	  : 280px;
+	display	  : none;
+}
+
+#restart, #victoryText {
+	position  : absolute;
+	top		  : 200px;
+	left	  : 50px;
+	cursor	  : pointer;
+	display	  : none;
+	font-size : 35px;
+	color 	  : black;
+	font-family: "Comic Sans MS";
+}
+
+#GameDescriptionArea {
+	position: absolute;
+	width: 300px;
+    height: 300px;
+    z-index: 15;
+    top: 40%;
+    right: 440px;
+	border-style: double;
+    margin: -100px 0 0 -150px;
+    color: white;
+    font-size:20px;
+	font-family: "Comic Sans MS";
+}
+
+.button {
+  border-radius: 10px;
+  background: linear-gradient(to right, #33ccff 0%, white 100%);
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  height:30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: -5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input[type=text] {padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 50px;
+	background: linear-gradient(to bottom, #33ccff 0%, white 100%);
+}
+input[type=text]:focus {border-color:#333; }
+
+
+.glow {
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
