@@ -25,3 +25,27 @@ Download full game with one click here : <a href="https://github.com/MAZHARMIK/S
 
 3) **GameOver**
 <img src="https://github.com/MAZHARMIK/Self-made-Projects/blob/master/PingBall/gameScreenshots/GameOver.jpg">
+
+
+<h2>Some small instructions to be followed before you enjoy  :video_game: :</h2>
+
+:radio_button:**Sound of the Game to work in your browser** : 
+If sound does't work in your browser, it is because you have not enabled the permission for Autoplay :disappointed_relieved:
+
+&nbsp;&nbsp;&nbsp;&nbsp;To fix that :wrench::
+  <ul>
+    <li>Go to settings</li>
+	  <li>Privacy & Security</li>
+	  <li>Permissions :arrow_right: Autoplay</li>
+	  <li>Enable it :smiley:</li>
+	  <li>Refresh the game or relaunch the game to enjoy the :sound: as well</li>
+  </ul>
+  
+<h2>How to download and launch the game :video_game: :</h2>
+&nbsp;&nbsp;&nbsp;&nbsp; Steps are as follows :
+  <ul>
+    <li>Click on the download button above to download the full game at once</li>
+	  <li>You will get a .zip file :file_folder:</li>
+	  <li>Open it and look for pingBall.html. Click on it</li>
+    <li>Let's play :running:</li>
+  </ul>
