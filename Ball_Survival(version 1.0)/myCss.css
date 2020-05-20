@@ -1,0 +1,30 @@
+canvas {
+    border:5px solid #d3d3d3;
+    background-color: black;
+}
+
+.controlButtons {
+	border-radius: 50%;
+	background-color: #008CBA;
+	
+	font-size: 12px;
+	font-weight: bold;
+	
+	height: 55px;
+	
+	transition-duration: 0.4s;
+	
+	width: 55px;
+}
+
+.controlButtons:hover {
+	background-color: black;
+	color: white;
+}
+
+#GameOver{
+	top: 50%;
+    left: 50%;
+	display:none;
+	style="text-align:center;"
+}
