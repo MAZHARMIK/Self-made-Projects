@@ -9,7 +9,7 @@ Download full game with one click here : <a href="https://github.com/MAZHARMIK/S
 <ul>
 <li>Beautiful snow effect :stars::stars:</li>
 <li>Random obstacles for ball :green_circle::green_circle:</li>
-<li>Controll the ball with keyboard buttons :arrow_right: :arrow_left: :arrow_up: :arrow_down:</li>
+<li>Control the ball with keyboard buttons :arrow_right: :arrow_left: :arrow_up: :arrow_down:</li>
 <li>Score track :slot_machine:</li>
 </ul>
 
