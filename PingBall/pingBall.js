@@ -339,6 +339,7 @@ function makeMyGame() {
 ///////driver function//////
 $( "#startGame" ).click(function() {
   PLAYER_NAME = $("#fname").val();
+  $("#sound_icon").css("display", "block");
   $("#GameDescriptionArea").css({"right": "20px"});
   makeMyGame();
 });
