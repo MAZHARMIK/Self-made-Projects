@@ -55,16 +55,14 @@ body {
 }
 
 #GameDescriptionArea {
-	position: absolute;
-	width: 300px;
-    height: 300px;
-    z-index: 15;
-    top: 40%;
-    right: 440px;
+	margin: auto;
+	border: 5px solid white;
 	border-style: double;
-    margin: -100px 0 0 -150px;
-    color: white;
-    font-size:20px;
+	padding: 10px;
+	width: 30%;
+    	height: 300px;
+    	color: white;
+    	font-size:20px;
 	font-family: "Comic Sans MS";
 }
 
