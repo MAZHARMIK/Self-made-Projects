@@ -9,14 +9,23 @@ set a 1;
 proc removeCollission {file_name counter} {
     set len [string length $file_name];
 
-    #Body: coming soon....
+    set dot_index [string last "." $file_name $len-1];
 
-return $file_name;
+    if {$dot_index != -1} {
+        set file_name [string range $file_name 0 $dot_index-1]_$counter[string range $file_name $dot_index $len-1];
+    } else {
+        set underscore "_";
+        set file_name $file_name$underscore$counter;
+    }
+    
+    return $file_name;
 }
 
+#driver function
 proc putargs args {
     global paths_map;
-
+    
+    #coming soon....
 }
 
 #coming soon......
