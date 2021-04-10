@@ -3,7 +3,7 @@
 
 # Tcl-Source-Spider
 ```sh
-    A Tcl script to crawl on all sourced files in a file passed to the crawler recursively.
+    A Tcl script to crawl on all sourced files in a file passed to the crawler.
 ```
 Upcoming ........  
 Stay Tuned ...
