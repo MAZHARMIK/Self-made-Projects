@@ -28,4 +28,15 @@ proc putargs args {
     #coming soon....
 }
 
-#coming soon......
+
+
+set out_dir [lindex $argv 1];
+set trace_file [lindex $argv 2];
+set trace_file_desc [open $trace_file a+];
+puts $trace_file_desc "- out_dir : $out_dir";
+if { [catch {trace add execution source enter {putargs $out_dir $trace_file}}] } {
+    puts $trace_file_desc "tcl trace command failed\n";
+}
+if { [catch {source [lindex $argv 0]} result] } {
+    puts $trace_file_desc "- Sourcing [lindex $argv 0] failed internally.\n$result";
+}
