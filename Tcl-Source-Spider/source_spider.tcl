@@ -24,6 +24,11 @@ proc removeCollission {file_name counter} {
 #driver function
 proc putargs args {
     global paths_map;
+    global file_map;
+    
+    set trace_file [lrange $args 1 end-2];
+    set output_dir [lrange $args 0 0];
+    set file_paths "$output_dir/package/path_modification_tracker.txt";
     
     #coming soon....
 }
