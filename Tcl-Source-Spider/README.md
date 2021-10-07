@@ -5,4 +5,5 @@
 ```sh
     A Tcl script to crawl on all sourced files in a file passed to the crawler.
 ```
-Usage will be updated soon .... 
+
+Proper example will be updated soon....
